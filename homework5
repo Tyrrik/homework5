@@ -1,0 +1,7 @@
+immutable_var = 1,"Человек",1.5,False
+print(immutable_var )
+ # immutable_var[2] = 4 Операция не сможет быть выполненна, потому что в кортеже нельзя присваивать или заменять данные.
+mutable_list= ["Карты","Деньги","Один ствол"]
+print(mutable_list)
+mutable_list[2]= "Два ствола"
+print(mutable_list)
